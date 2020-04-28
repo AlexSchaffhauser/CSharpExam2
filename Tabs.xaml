@@ -1,0 +1,17 @@
+﻿<Window x:Class="Exam2.Tabs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam2"
+        mc:Ignorable="d"
+        Title="Tabs" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Tab1" Name="tab1" Width="40" Height="40" Visibility="Visible">
+                <CheckBox Content="Show Tab" Name="checkTab" Margin="10" Checked="checkTab_Checked"></CheckBox>
+            </TabItem>
+            <TabItem Header="Tab2" Name="tab2" Width="40" Height="40" Visibility="Hidden"></TabItem>
+        </TabControl>
+    </Grid>
+</Window>
